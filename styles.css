@@ -9,4 +9,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--light-primary);
+}
+
+.navbar {
+    display: flex;
+    background: var(--dark);
+    justify-content: space-around;
+}
+
+.navItem {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--light-primary);
+    padding: 15px;
+}
+
+.navList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
