@@ -1,3 +1,10 @@
+:root {
+    --dark: #1F2937;
+    --light-primary: #F9FAF8;
+    --light-secondary: #E5E7EB;
+    --btn-blue: #3882F6;
+}
+
 body {
     margin: 0;
     padding: 0;
