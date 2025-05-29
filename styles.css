@@ -44,10 +44,12 @@ header {
     padding-left: 11vw;
     padding-right: 12vw;
     flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 90px;
 }
 
 .heroimg {
-    height: 20vh;
+    height: 22vh;
     width: 400px;
 }
 
@@ -62,10 +64,14 @@ header {
 
 .herop {
     margin: 0;
+    margin-bottom: 20px;
+    color: var(--light-secondary);
 }
 
 header a {
     background-color: var(--btn-blue);
     padding: 10px;
     border-radius: 5px;
+    text-decoration: none;
+    color: var(--light-primary);
 }
