@@ -75,3 +75,10 @@ header a {
     text-decoration: none;
     color: var(--light-primary);
 }
+
+.infocontent img {
+    border-radius: 10%;
+    border: 5px var(--btn-blue) solid;
+    width: 200px;
+    height: 195px;
+}
