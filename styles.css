@@ -43,6 +43,7 @@ header {
     justify-content: space-around;
     padding-left: 11vw;
     padding-right: 12vw;
+    flex-wrap: wrap;
 }
 
 .heroimg {
@@ -61,4 +62,10 @@ header {
 
 .herop {
     margin: 0;
+}
+
+header a {
+    background-color: var(--btn-blue);
+    padding: 10px;
+    border-radius: 5px;
 }
