@@ -39,4 +39,26 @@ body {
 header {
     background: var(--dark);
     padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 11vw;
+    padding-right: 12vw;
+}
+
+.heroimg {
+    height: 20vh;
+    width: 400px;
+}
+
+.herotext {
+    width: 21vw;
+}
+
+.herotitle {
+    margin: 0;
+    font-size: 26pt;
+}
+
+.herop {
+    margin: 0;
 }
