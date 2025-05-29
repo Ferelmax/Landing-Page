@@ -82,3 +82,10 @@ header a {
     width: 200px;
     height: 195px;
 }
+
+.infosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+}
