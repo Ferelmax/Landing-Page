@@ -89,3 +89,12 @@ header a {
     align-items: center;
     height: 40em;
 }
+
+.infocontent {
+    width: 50%;
+    display: flex;
+    border: red solid;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
